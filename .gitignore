@@ -52,7 +52,6 @@ credentials/
 # ملفات خاصة بالمشروع
 secrets/
 
-# ملفات تحتوي على أسرار
 **/credentials.json
 **/secrets.json
 **/*secret*
@@ -61,7 +60,6 @@ secrets/
 **/*password*
 **/*auth*
 
-# تجاهل ملفات الاختبار التي تحتوي على بيانات مشفرة
 **/test-workflows/**
 **/cypress/fixtures/**
 **/packages/testing/**
