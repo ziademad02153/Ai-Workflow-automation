@@ -1,0 +1,67 @@
+# ملفات البيئة
+.env
+.env.*
+!.env.example
+
+# ملفات التبعيات
+node_modules/
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات السجلات
+*.log
+
+# ملفات التكوين المحلية
+config/local.*
+
+# ملفات التطوير
+.idea/
+.vscode/
+*.sublime-*
+
+# ملفات البناء
+dist/
+build/
+
+# ملفات الاختبار
+coverage/
+
+# ملفات التبعيات
+package-lock.json
+yarn.lock
+
+# ملفات النظام
+*.swp
+*.swo
+*~
+
+# ملفات n8n
+credentials/
+
+# ملفات مؤقتة
+*.tmp
+*.temp
+
+# ملفات كبيرة
+*.zip
+*.tar.gz
+*.rar
+
+# ملفات خاصة بالمشروع
+secrets/
+
+# ملفات تحتوي على أسرار
+**/credentials.json
+**/secrets.json
+**/*secret*
+**/*token*
+**/*key*
+**/*password*
+**/*auth*
+
+# تجاهل ملفات الاختبار التي تحتوي على بيانات مشفرة
+**/test-workflows/**
+**/cypress/fixtures/**
+**/packages/testing/**
